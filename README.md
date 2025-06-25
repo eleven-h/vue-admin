@@ -1,18 +1,51 @@
-# Vue 3 + TypeScript + Vite
+# 硅谷电商后台管理系统
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+项目描述：基于vue3开发的电商后台管理系统，完成多角色权限控制，数据可视化，商品订单管理，以及用户信息管理，角色权限分配，数据大屏等功能
 
-## Recommended IDE Setup
+技术栈：vue3+vite+typescript+pinia+axios+Element-Plus+Echarts
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+项目展示：
 
-## Type Support For `.vue` Imports in TS
+登录页：
+![image](https://github.com/user-attachments/assets/c310e8f9-d41d-4b94-a5e0-81aad9d9561a)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+首页
+![image](https://github.com/user-attachments/assets/b6ad94e0-ae17-4d6c-9c5d-00cd3ba98a40)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+数据大屏展示
+![image](https://github.com/user-attachments/assets/fc4c276f-fea8-4376-bb27-e28f88f0bb25)
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+权限管理
+![image](https://github.com/user-attachments/assets/6ad300dd-eacd-40eb-94f8-91473bca34ed)
+![image](https://github.com/user-attachments/assets/52901467-1ed8-4528-b557-b4cdda42259f)
+![image](https://github.com/user-attachments/assets/57ba6404-4e81-489e-a4e7-14840bc29df9)
+
+商品管理
+![image](https://github.com/user-attachments/assets/160dfee1-8b86-48d6-9475-0c77658b94ac)
+（spu,属性管理差不多）
+![image](https://github.com/user-attachments/assets/4a420788-9112-4842-a4a6-a45fc24aeb48)
+sku
+![image](https://github.com/user-attachments/assets/af2a6347-2589-4964-922d-a2a8db79b796)
+
+主题切换和暗示模式
+![image](https://github.com/user-attachments/assets/5d4324ce-86f2-41e3-ab2f-a2bc067bd026)
+
+
+
+
+
+
+
+#Project Setup  项目设置
+
+pnpm install
+
+#Compile and Hot-Reload for Development
+用于开发的 Compile 和 Hot-Reload
+
+pnpm run dev
+
+#Compile and Minify for Production
+编译和缩小用于生产
+
+pnpm run build
