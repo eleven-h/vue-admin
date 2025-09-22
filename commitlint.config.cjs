@@ -1,6 +1,6 @@
 module.exports = {
     extends: ['@commitlint/config-conventional'],
-    // 校验规则
+    // 校验
     rules: {
         'type-enum': [
             2,

@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-//接受父组件传递过来的参数
+//接受父组件传递过来的参
 defineProps({
     //xlink:href属性值前缀
     prefix: {

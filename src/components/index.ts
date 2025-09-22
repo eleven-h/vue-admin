@@ -8,7 +8,7 @@ import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 const allGloablComponent: any = { SvgIcon, Pagination, Category };
 //对外暴露插件对象
 export default {
-    //务必叫做install方法
+    //务必叫做install方
     install(app: any) {
         //注册项目全部的全局组件
         Object.keys(allGloablComponent).forEach(key => {

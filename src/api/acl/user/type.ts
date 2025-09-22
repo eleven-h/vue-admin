@@ -15,7 +15,7 @@ export interface User {
     "phone"?: null,
     "roleName"?: string
 }
-//数组包含全部的用户信息
+//数组包含全部的用户
 export type Records = User[];
 //获取全部用户信息接口返回的数据ts类型
 export interface UserResponseData extends ResponseData {

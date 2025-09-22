@@ -5,17 +5,17 @@ export interface ResponseData {
 }
 //定义SKU对象的ts类型
 export interface Attr {
-    id?:number
+    id?: number
     "attrId": number | string,//平台属性的ID
     "valueId": number | string,//属性值的ID
 }
 export interface saleArr {
-    id?:number,
+    id?: number,
     "saleAttrId": number | string,//属性ID
     "saleAttrValueId": number | string,//属性值的ID
 }
 export interface SkuData {
-    "category3Id"?: string | number,//三级分类的ID
+    "category3Id"?: string | number,//三级分类的
     "spuId"?: string | number,//已有的SPU的ID
     "tmId"?: string | number,//SPU品牌的ID
     "skuName"?: string,//sku名字

@@ -18,7 +18,7 @@ enum API {
   UPDATESPU_URL = '/admin/product/updateSpuInfo',
   //追加一个新增的SKU地址
   ADDSKU_URL = '/admin/product/saveSkuInfo',
-  //查看某一个已有的SPU下全部售卖的商品
+  //查看某一个已有的SPU下全部售卖的商
   SKUINFO_URL = '/admin/product/findBySpuId/',
   //删除已有的SPU
   REMOVESPU_URL = '/admin/product/deleteSpu/'

@@ -17,7 +17,7 @@ enum API {
     DELETEATTR_URL = '/admin/product/deleteAttr/'
 }
 
-//获取一级分类的接口方法
+//获取一级分类的接口
 export const reqC1 = () => request.get<any, CategoryResponseData>(API.C1_URL);
 //获取二级分类的接口方法
 export const reqC2 = (category1Id: number | string) => request.get<any, CategoryResponseData>(API.C2_URL + category1Id);

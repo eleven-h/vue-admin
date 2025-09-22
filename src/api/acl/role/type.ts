@@ -12,7 +12,6 @@ export interface RoleData {
     "remark"?: null
 }
 
-//全部职位的数组的ts类型
 export type Records = RoleData[];
 //全部职位数据的相应的ts类型
 export interface RoleResponseData extends ResponseData {

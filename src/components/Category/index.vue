@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-//引入组件挂载完毕方法
+//引入组件挂载完毕方
 import { onMounted } from 'vue';
 //引入分类相关的仓库
 import useCategoryStore from '@/store/modules/category';

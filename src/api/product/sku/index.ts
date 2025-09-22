@@ -14,7 +14,7 @@ enum API {
     //删除已有的商品
     DELETESKU_URL = '/admin/product/deleteSku/'
 }
-//获取商品SKU的接口
+//获取商品SKU的接
 export const reqSkuList = (page: number, limit: number) => request.get<any, SkuResponseData>(API.SKU_URL + `${page}/${limit}`)
 //已有商品上架的请求
 export const reqSaleSku = (skuId: number) => request.get<any, any>(API.SALE_URL + skuId);

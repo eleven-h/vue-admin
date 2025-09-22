@@ -43,7 +43,7 @@ module.exports = {
         'value-no-vendor-prefix': null, // 关闭 属性值前缀 --webkit-box
         'property-no-vendor-prefix': null, // 关闭 属性前缀 -webkit-mask
         'selector-pseudo-class-no-unknown': [
-            // 不允许未知的选择器
+            // 不允许未知的选择
             true,
             {
                 ignorePseudoClasses: ['global', 'v-deep', 'deep'], // 忽略属性，修改element默认样式的时候能使用到

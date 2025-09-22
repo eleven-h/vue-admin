@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path'
 //引入svg需要用到插件
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
-//mock插件提供方法
+//mock插件提供方
 import { viteMockServe } from 'vite-plugin-mock'
 export default defineConfig(({ command, mode }) => {
   //获取各种环境下的对应的变量

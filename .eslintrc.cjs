@@ -9,7 +9,7 @@ module.exports = {
     },
     /* 指定如何解析语法 */
     parser: 'vue-eslint-parser',
-    /** 优先级低于 parse 的语法解析配置 */
+    /** 优先级低于 parse 的语法解析配 */
     parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
